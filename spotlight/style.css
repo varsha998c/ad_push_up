@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #382a1a;
+}
+ol,
+ul {
+    list-style: none;
+}
+li:last-child {
+    margin: 0 !important;
+}
+img {
+    width: 100%;
+    display: block;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Light.woff2") format("woff2"),
+        url("../assets/fonts/Poppins-Light.woff") format("woff");
+    font-weight: 300; /* Light weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Regular.woff2") format("woff2"),
+        url("../assets/fonts/Poppins-Regular.woff") format("woff");
+    font-weight: 400; /* Regular weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Medium.woff2") format("woff2"),
+        url("../assets/fonts/Poppins-Medium.woff") format("woff");
+    font-weight: 500; /* Medium weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Bold.woff2") format("woff2"),
+        url("../assets/fonts/Poppins-Bold.woff") format("woff");
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Poppins" !important;
+}
+#homePage {
+    width: 100%;
+}
+#spotlight {
+    width: 100%;
+    /* background-color: #f32c5a;
+     */
+    background-image: linear-gradient(360deg, #ff4954 0%, #f2295b 100%);
+    /* height: 100vh; */
+    padding: 60px 0;
+}
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+#spotlight .wrapper .logoContainer {
+    width: 250px;
+}
+#spotlight .wrapper .title {
+    width: 600px;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 68px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#membership {
+    border-style: solid;
+    padding: 80px 110px 90px;
+}
+
+#membership h3 {
+    text-align: left;
+    color: #554f67;
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#membership .images {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#membership .images li {
+    margin-right: 10px;
+}
+
+#membership .images li .imageContainer.google {
+    width: 255px;
+    padding-bottom: 10px;
+}
+
+#membership .images li .imageContainer.iab {
+    width: 120px;
+}
+
+#membership .images li .imageContainer.highPerf {
+    width: 95px;
+}
+#membership .images li .imageContainer.FinTimes {
+    width: 260px;
+    padding-bottom: 30px;
+}
+
+#membership .images li .imageContainer img {
+    display: block;
+    width: 100%;
+}
+#spotlight .wrapper .title {
+    width: 550px;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 50px;
+    line-height: 78px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#spotlight .wrapper .accessItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+#spotlight .wrapper .accessItems p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+}
+#spotlight .wrapper .accessItems p img {
+    width: 28px;
+    margin-right: 5px;
+    display: inline;
+}
+
+/* FEATURES */
+#features {
+    background-color: #fff4f4;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+        box-shadow 0.3s;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 100px 110px 90px;
+}
+
+#features h2 {
+    margin-bottom: 40px;
+    color: #000;
+    font-size: 54px;
+    font-weight: 700;
+    width: 56%;
+    text-align: center;
+}
+
+#features ul {
+}
+#spotlight .wrapper .demo {
+    display: none;
+}
+#spotlight .wrapper .news {
+    width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    height: 100px;
+}
+.slick-slider {
+    height: 100%;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    height: 100%;
+}
+#spotlight .wrapper .news .items li .newsContainer {
+    width: 180px;
+}
+.slick-initialized .slick-slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+}
+#features ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ff4954;
+    width: 60%;
+    margin-bottom: 80px;
+}
+#features ul li h3 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+#features ul li div.points {
+    display: flex;
+    flex-direction: column;
+}
+#features ul li span.number {
+    height: 60px;
+    width: 60px;
+    font-weight: 600;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 0 4px #ff4954;
+    text-align: center;
+    align-content: center;
+    margin-right: 10px;
+    background: #fff;
+    font-size: 36px;
+}
+#features ul li p.text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 65%;
+}
+#features ul li .imageContainer {
+    width: 210px;
+}
+#features ul .ads {
+}
+
+#features ul .ads .left {
+    text-align: left;
+}
+#spotlight .wrapper .imgContainer {
+    display: none;
+}
+/* responesive */
+@media all and (max-width: 1080px) {
+    #spotlight {
+        padding-bottom: 100px;
+    }
+
+    #spotlight .wrapper {
+        width: 90%;
+    }
+    #spotlight .wrapper .logoContainer {
+        width: 225px;
+    }
+    #spotlight .wrapper .title {
+        font-size: 44px;
+        line-height: 58px;
+        width: 580px;
+    }
+    #spotlight .wrapper .accessItems {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 560px;
+    }
+    #spotlight .wrapper .accessItems p {
+        color: #fff;
+        margin-bottom: 5px;
+        font-family: Arial, sans-serif;
+        font-size: 25px;
+    }
+    #spotlight .wrapper .accessItems p img {
+        width: 23px;
+        margin-right: 5px;
+        display: inline;
+    }
+    #spotlight .wrapper .imgContainer {
+        display: none;
+    }
+    #spotlight .wrapper .demo {
+        font-family: "Poppins", Sans-serif;
+        display: block;
+        background-color: #2a2733;
+        border-radius: 5px;
+        width: 250px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        margin-top: 50px;
+        box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.21);
+    }
+    #spotlight .wrapper .demo a {
+        color: #fff;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    #spotlight .wrapper .news {
+        margin-top: 140px;
+    }
+    #spotlight .wrapper .news {
+        width: 100%;
+        padding: 20px 30px;
+    }
+    #spotlight .wrapper .news .items li .newsContainer {
+        width: 200px;
+    }
+    #membership {
+        padding: 80px;
+    }
+    #membership .images li {
+        margin-right: 20px;
+    }
+    #features {
+        padding: 90px;
+    }
+    #features h2 {
+        font-size: 50px;
+        width: 65%;
+    }
+
+    #features ul li {
+        width: 70%;
+    }
+    #features ul li h3 {
+        font-size: 35px;
+    }
+    #features ul li p.text {
+        color: #000;
+        font-size: 20px;
+        font-weight: unset;
+        line-height: unset;
+        width: unset;
+    }
+}
+@media all and (max-width: 980px) {
+    #spotlight .wrapper {
+        width: 85%;
+    }
+    #spotlight .wrapper .logoContainer {
+        width: 250px;
+    }
+    #spotlight .wrapper .title {
+        font-size: 50px;
+        line-height: 58px;
+        width: 450px;
+    }
+    #spotlight .wrapper .accessItems p {
+        color: #fff;
+        margin-bottom: 10px;
+        line-height: 40px;
+        font-family: Arial, sans-serif;
+        font-size: 27px;
+    }
+    #spotlight .wrapper .accessItems p img {
+        width: 26px;
+        margin-right: 5px;
+        display: inline;
+    }
+    #spotlight .wrapper .demo {
+        font-family: "Poppins", Sans-serif;
+        display: block;
+        background-color: #2a2733;
+        border-radius: 5px;
+        width: 280px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        margin-top: 50px;
+        box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.21);
+    }
+    #spotlight .wrapper .news {
+        margin-top: 180px;
+    }
+    #membership {
+        padding: 50px;
+    }
+    #membership .images {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    #membership .images li .imageContainer.FinTimes {
+        width: 260px;
+        margin-top: 20px;
+    }
+    #features ul li span.number {
+        font-size: unset;
+    }
+    #features h2 {
+        width: 82%;
+    }
+    #features ul li {
+        flex-wrap: wrap-reverse;
+    }
+    #features ul li .imageContainer {
+        width: 250px;
+    }
+    #features ul li p.text {
+        font-size: 19px;
+    }
+    #features ul li {
+        margin-bottom: 50px;
+    }
+}
+@media all and (max-width: 768px) {
+    #spotlight {
+        padding-top: 20px;
+        position: relative;
+    }
+    #spotlight .wrapper {
+        width: 92%;
+    }
+    #spotlight .wrapper .logoContainer {
+        width: 160px;
+    }
+    #spotlight .wrapper .title {
+        font-size: 30px;
+        line-height: 48px;
+        width: 450px;
+    }
+    #spotlight .wrapper .accessItems {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 500px;
+    }
+    #spotlight .wrapper .accessItems p {
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    #spotlight .wrapper .accessItems p img {
+        width: 18px;
+        margin-right: 5px;
+        display: inline;
+    }
+    #spotlight .wrapper .demo {
+        width: 140px;
+        height: 45px;
+    }
+    #spotlight .wrapper .demo a {
+        font-size: 15px;
+    }
+    #spotlight .wrapper .news {
+        height: 70px;
+    }
+    #spotlight .wrapper .news .items {
+        border-radius: 20px;
+    }
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+        border-radius: 6px !important;
+    }
+    #spotlight .wrapper .news {
+        margin-top: 115px;
+    }
+    #spotlight {
+        padding-bottom: 40px;
+    }
+    #spotlight .wrapper .imgContainer {
+        display: block;
+        position: absolute;
+        width: 160px;
+        right: -88px;
+        top: 48px;
+    }
+    #membership .images li .imageContainer.google {
+        width: 200px;
+    }
+    #membership .images li .imageContainer.iab {
+        width: 100px;
+    }
+    #membership .images li .imageContainer.highPerf {
+        width: 80px;
+    }
+    #membership .images li .imageContainer.FinTimes {
+        width: 230px;
+    }
+    #features h2 {
+        width: unset;
+        font-size: 40px;
+    }
+    #features ul li {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    #features ul li h3 {
+        font-size: 33px;
+    }
+    #features ul li p.text {
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 640px) {
+    #spotlight .wrapper .title {
+        font-size: 38px;
+        line-height: 58px;
+        width: 400px;
+    }
+    #spotlight .wrapper .accessItems {
+        width: 400px;
+    }
+    #spotlight .wrapper .accessItems p {
+        line-height: 30px;
+    }
+    #spotlight .wrapper .demo {
+        width: 160px;
+        height: 55px;
+    }
+    #features {
+        padding: 50px;
+    }
+    #features h2 {
+        width: unset;
+        font-size: 35px;
+    }
+    #features ul li h3 {
+        font-size: 32px;
+    }
+    #features ul li p.text {
+        font-size: 17px;
+    }
+}
+@media all and (max-width: 480px) {
+    #spotlight .wrapper {
+        width: 85%;
+    }
+    #spotlight .wrapper .title {
+        font-size: 35px;
+        width: 210px;
+    }
+
+    #spotlight .wrapper .imgContainer {
+        right: -29px;
+    }
+    #spotlight .wrapper .accessItems {
+        width: 302px;
+    }
+    #membership {
+        padding: 25px;
+    }
+    #membership .images li .imageContainer.google {
+        /* width: 150px; */
+    }
+}
+@media all and (max-width: 360px) {
+    #spotlight .wrapper .title {
+        position: relative;
+        font-size: 36px;
+        width: 203px;
+        display: block;
+        z-index: 1;
+    }
+    #spotlight .wrapper .imgContainer {
+        width: 188px;
+        right: -49px;
+    }
+    #spotlight .wrapper .accessItems {
+        width: 285px;
+    }
+    #spotlight .wrapper .accessItems p {
+        font-size: 20px;
+        line-height: 37px;
+    }
+}
