@@ -15,7 +15,6 @@
         />
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script src="./Script.js"></script>
     </head>
     <body>
         <div id="homePage">
@@ -179,6 +178,7 @@
                 </ul>
             </div>
             <!-- Membership and accolades End -->
+            <!-- form -->
             <!-- Features -->
             <div id="features">
                 <h2>All the good things you get access to</h2>
@@ -204,7 +204,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="speed">
+                    <li class="ads">
                         <div class="left">
                             <div class="points">
                                 <h3 class="title">
@@ -226,7 +226,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="reporting">
+                    <li class="ads">
                         <div class="left">
                             <div class="points">
                                 <h3 class="title">
@@ -245,7 +245,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="alternative">
+                    <li class="ads">
                         <div class="left">
                             <div class="points">
                                 <h3 class="title">
@@ -266,7 +266,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="partner">
+                    <li class="ads">
                         <div class="left">
                             <div class="points">
                                 <h3 class="title">
@@ -290,7 +290,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="team">
+                    <li class="ads">
                         <div class="left">
                             <div class="points">
                                 <h3 class="title">
@@ -319,74 +319,272 @@
             </div>
             <!-- Features end -->
             <!-- Partners -->
-            <div class="partners">
-                <h3 class="title">
-                    Just some reasons why publishers partner with us
-                </h3>
-                <ul>
-                    <li>
-                        <div class="imageContainer">
-                            <img src="./assets/images/demand.svg4" alt="" />
+            <div id="partners">
+                <div class="wrapper">
+                    <h3 class="title">
+                        Just some reasons why publishers partner with us
+                    </h3>
+                    <div class="container">
+                        <div class="left">
+                            <ul>
+                                <li>
+                                    <div class="imageContainer">
+                                        <img
+                                            src="./assets/images/demand.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4>Improved Viewability</h4>
+                                    <p>
+                                        Access to demand from 50+ tier-1 ad
+                                        exchanges, including Google AdX and
+                                        OpenX
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="imageContainer">
+                                        <img
+                                            src="./assets/images/eye.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4>Higher Demand</h4>
+                                    <p>
+                                        Improved ad viewability score with ad
+                                        formats like sticky ads, docked ads,
+                                        native ads across devices.
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="imageContainer">
+                                        <img
+                                            src="./assets/images/pointer.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4>Insightful Reporting</h4>
+                                    <p>
+                                        Significant increase in clickthrough
+                                        rates owing to reduced banner blindness
+                                        for ad inventory.
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
-                        <h4>Higher Demand</h4>
-                        <p>
-                            Access to demand from 50+ tier-1 ad exchanges,
-                            including Google AdX and OpenX
-                        </p>
-                    </li>
-                    <li>
-                        <div class="imageContainer">
-                            <img src="./assets/images/reporting.svg" alt="" />
+                        <div class="right">
+                            <ul>
+                                <li>
+                                    <div class="imageContainer">
+                                        <img
+                                            src="./assets/images/reporting.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4>AdBlock Solutions</h4>
+                                    <p>
+                                        Unified reporting with easily
+                                        identifiable metrics and in-depth
+                                        analysis to fine-tune performance.
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="imageContainer">
+                                        <img
+                                            src="./assets/images/bulb.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4>Better Clickthrough-Rates</h4>
+                                    <p>
+                                        Potential to earn back revenue lost to
+                                        ad blockers with pro-user ad-reinsertion
+                                        technology.
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="imageContainer">
+                                        <img
+                                            src="./assets/images/cursor.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h4>Faster Page-Loading</h4>
+                                    <p>
+                                        Minimized page latency with modular code
+                                        generation, lazy loading, and CDN-based
+                                        delivery.
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
-                        <h4></h4>
-                        Insightful Reporting
-                        <p>
-                            Unified reporting with easily identifiable metrics
-                            and in-depth analysis to fine-tune performance.
-                        </p>
-                    </li>
-                    <li>
-                        <div class="imageContainer">
-                            <img src="./assets/images/eye.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- end partners -->
+            <!-- publishers -->
+            <div class="publish">
+                <div class="wrapper">
+                    <h1 class="title">
+                        What your fellow publishers have to say
+                    </h1>
+                </div>
+            </div>
+            <div id="integrate">
+                <div class="wrapper">
+                    <h2 class="title">
+                        AdPushup Integrates with Your Current Ad Stack
+                    </h2>
+                    <ul class="list">
+                        <li>
+                            <div class="imgContainer">
+                                <img
+                                    src="./assets/images/amp_logo.png"
+                                    alt=""
+                                />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="imgContainer">
+                                <img
+                                    src="./assets/images/google_ads.png"
+                                    alt=""
+                                />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="imgContainer">
+                                <img
+                                    src="./assets/images/Prebid-Member.png"
+                                    alt=""
+                                />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="imgContainer">
+                                <img
+                                    src="./assets/images/amp_logo.png"
+                                    alt=""
+                                />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="imgContainer">
+                                <img
+                                    src="./assets/images/google_ads.png"
+                                    alt=""
+                                />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="imgContainer">
+                                <img
+                                    src="./assets/images/Prebid-Member.png"
+                                    alt=""
+                                />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="earning">
+                <div class="wrapper">
+                    <div class="left">
+                        <h2 class="heading">
+                            We make earning big on ads seem effortless.
+                            <span
+                                >Just like you make growing big on publishing
+                                seem effortless.
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="right">
+                        <div class="ImgContainer">
+                            <img src="./assets/images/footer.png" alt="" />
                         </div>
-                        <h4>Improved Viewability</h4>
-                        <p>
-                            Improved ad viewability score with ad formats like
-                            sticky ads, docked ads, native ads across devices.
-                        </p>
-                    </li>
-                    <li>
-                        <div class="imageContainer">
-                            <img src="./assets/images/bulb.svg" alt="" />
-                        </div>
-                        <h4>AdBlock Solutions</h4>
-                        <p>
-                            Potential to earn back revenue lost to ad blockers
-                            with pro-user ad-reinsertion technology.
-                        </p>
-                    </li>
-                    <li>
-                        <div class="imageContainer">
-                            <img src="./assets/images/pointer.svg" alt="" />
-                        </div>
-                        <h4>Better Clickthrough-Rates</h4>
-                        <p>
-                            Significant increase in clickthrough rates owing to
-                            reduced banner blindness for ad inventory.
-                        </p>
-                    </li>
-                    <li>
-                        <div class="imageContainer">
-                            <img src="./assets/images/cursor.svg" alt="" />
-                        </div>
-                        <h4>Faster Page-Loading</h4>
-                        <p>
-                            Minimized page latency with modular code generation,
-                            lazy loading, and CDN-based delivery.
-                        </p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="wrapper">
+                    <p>©2023 AdPushup, Inc. All rights reserved.</p>
+                    <div class="back">Back to Top</div>
+                </div>
+            </footer>
+            <!-- form -->
+            <div class="form-container">
+                <h2>Setup a Demo</h2>
+                <p>Free 30 Min Website Monetization Consulting Included</p>
+                <form id="demoForm">
+                    <label for="firstName">First Name*</label>
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        placeholder="Enter your first name"
+                    />
+                    <span class="error" id="firstNameError"
+                        >This is an incorrect input. Please check and fill in
+                        the details again.</span
+                    >
+
+                    <label for="email">Work Email*</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your work email"
+                    />
+                    <span class="error" id="emailError"
+                        >This is an incorrect input. Please check and fill in
+                        the details again.</span
+                    >
+
+                    <label for="phone">Phone*</label>
+                    <div class="phone-input">
+                        <span class="country-code">+91</span>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                        />
+                    </div>
+                    <span class="error" id="phoneError"
+                        >This is an incorrect input. Please check and fill in
+                        the details again.</span
+                    >
+
+                    <label for="website">Website*</label>
+                    <input
+                        type="url"
+                        id="website"
+                        name="website"
+                        placeholder="Enter your website"
+                    />
+                    <span class="error" id="websiteError"
+                        >This is an incorrect input. Please check and fill in
+                        the details again.</span
+                    >
+                    <label for="revenue">Monthly Revenue (USD)*</label>
+                    <select id="revenue" name="revenue">
+                        <option value="">Select any option</option>
+                        <option value="under_1000">Under $1,000</option>
+                        <option value="1000_to_5000">$1,000 - $5,000</option>
+                        <option value="5000_plus">Over $5,000</option>
+                    </select>
+                    <span class="error" id="revenueError"
+                        >This is an incorrect input. Please check and fill in
+                        the details again.</span
+                    >
+
+                    <button type="submit">GET A FREE DEMO</button>
+                    <p class="terms">
+                        By signing up you agree to our
+                        <a href="#">Terms and Privacy Policy</a>.
+                    </p>
+                </form>
             </div>
         </div>
+        <script src="./Script.js"></script>
     </body>
 </html>
