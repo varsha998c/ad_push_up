@@ -767,6 +767,21 @@ button:hover {
     .form-container {
         display: none;
     }
+    #partners {
+        display: none;
+    }
+    .form-container {
+        display: none;
+    }
+    .publish {
+        display: none;
+    }
+    #integrate {
+        display: none;
+    }
+    #earning {
+        display: none;
+    }
 }
 @media all and (max-width: 980px) {
     #spotlight .wrapper {
