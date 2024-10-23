@@ -1298,3 +1298,9 @@ button:hover {
         display: none;
     }
 }
+
+@media all and (max-width: 360px) {
+    footer {
+        display: none;
+    }
+}
