@@ -782,6 +782,9 @@ button:hover {
     #earning {
         display: none;
     }
+    footer {
+        display: none;
+    }
 }
 @media all and (max-width: 980px) {
     #spotlight .wrapper {
@@ -874,6 +877,27 @@ button:hover {
 
     #features ul li {
         margin-bottom: 50px;
+    }
+    .form-container {
+        display: none;
+    }
+    #partners {
+        display: none;
+    }
+    .form-container {
+        display: none;
+    }
+    .publish {
+        display: none;
+    }
+    #integrate {
+        display: none;
+    }
+    #earning {
+        display: none;
+    }
+    footer {
+        display: none;
     }
 }
 @media all and (max-width: 768px) {
@@ -1005,6 +1029,27 @@ button:hover {
     #features ul li .imageContainer {
         width: 235px;
     }
+    .form-container {
+        display: none;
+    }
+    #partners {
+        display: none;
+    }
+    .form-container {
+        display: none;
+    }
+    .publish {
+        display: none;
+    }
+    #integrate {
+        display: none;
+    }
+    #earning {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
 }
 @media all and (max-width: 640px) {
     #spotlight {
@@ -1088,6 +1133,27 @@ button:hover {
     #membership {
         width: 425px;
     }
+    .form-container {
+        display: none;
+    }
+    #partners {
+        display: none;
+    }
+    .form-container {
+        display: none;
+    }
+    .publish {
+        display: none;
+    }
+    #integrate {
+        display: none;
+    }
+    #earning {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
 }
 @media all and (max-width: 480px) {
     #spotlight {
@@ -1155,6 +1221,27 @@ button:hover {
     #features ul li h3 {
         width: 329px;
     }
+    .form-container {
+        display: none;
+    }
+    #partners {
+        display: none;
+    }
+    .form-container {
+        display: none;
+    }
+    .publish {
+        display: none;
+    }
+    #integrate {
+        display: none;
+    }
+    #earning {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
 }
 @media all and (max-width: 360px) {
     #spotlight {
@@ -1188,5 +1275,26 @@ button:hover {
     }
     #spotlight .wrapper .news {
         height: 55px;
+    }
+    .form-container {
+        display: none;
+    }
+    #partners {
+        display: none;
+    }
+    .form-container {
+        display: none;
+    }
+    .publish {
+        display: none;
+    }
+    #integrate {
+        display: none;
+    }
+    #earning {
+        display: none;
+    }
+    footer {
+        display: none;
     }
 }
